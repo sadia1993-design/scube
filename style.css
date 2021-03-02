@@ -7,6 +7,7 @@
   box-sizing: border-box;
   outline: 0;
 }
+img{max-width: 100%; height: auto;}
 h1,h2,h3,h4,h5,h6{margin: 0;}
 ul {
     list-style: none;
@@ -57,7 +58,7 @@ a {
 }
 .middle-top ul li {
     display: inline-block;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 .icon-content h5 {
@@ -95,9 +96,52 @@ a {
 /*            banner                      */
 /*========================================*/
 section#banner {
-    background-image: url(../scuba/banner.jpg);
+    background-image: url(../scube-main/banner.jpg);
     padding-top: 22%;
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*==========================================*/
+/*                ftp server                */
+/*==========================================*/
+section#ftpServer {
+  padding: 50px 0;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mb-35{margin-bottom: 35px;}
+.ftpBox h4 {
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 8px;
+  color: #058600;
+ 
+}
+/*==========================================*/
+/*                media server                */
+/*==========================================*/
+section#mediaServer {
+  padding: 50px 0;
+}
+/*==========================================*/
+/*               footer                     */
+/*==========================================*/
+.footer-top {
+  background: #000;
+  padding: 35px 0;
+  color: #fff;
+}
+
+.footer-bottom {
+  background: #262831;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.footer-bottom .copy-text p a {
+  color: red;
+  margin-left: 11px;
 }
