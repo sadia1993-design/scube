@@ -48,3 +48,56 @@ a {
 .middle-bottom ul li a {
   color: #000;
 }
+.bottom-header{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.logo-area a {
+    display: block;
+}
+.middle-top ul li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.icon-content h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5b5d60;
+    margin-bottom: 4px;
+}
+
+.icon i {
+    color: #058600;
+    font-size: 24px;
+    margin-right: 12px;
+    margin-top: 6px;
+}
+.middle-bottom ul li {
+    display: inline-block;
+    margin-right:25px;
+}
+
+.middle-bottom ul li a {
+    line-height: 62px;
+    color: #363842;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0.4px;
+    border-top: 2px solid transparent;
+    transition: .23s all ease-in-out;
+}
+.middle-top {
+    border-bottom: 3px solid #eee;
+    padding-bottom: 20px;
+}
+/*========================================*/
+/*            banner                      */
+/*========================================*/
+section#banner {
+    background-image: url(../scuba/banner.jpg);
+    padding-top: 22%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
