@@ -96,7 +96,7 @@ a {
 /*            banner                      */
 /*========================================*/
 section#banner {
-    background-image: url(../scube-main/banner.jpg);
+    background-image: url(./banner.jpg);
     padding-top: 22%;
     background-position: right center;
     background-repeat: no-repeat;
